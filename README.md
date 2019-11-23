@@ -17,10 +17,10 @@ $ docker pull junionorg/dev
 ## Usage
 
 ```bash
-# As background container
+# As a background container
 $ docker run -dit --name CONTAINER junionorg/dev
 $ docker exec -it CONTAINER
 
-# As temporary container
+# As a temporary container
 $ docker run --rm -it CONTAINER junionorg/dev
 ```
