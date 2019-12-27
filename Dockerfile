@@ -9,6 +9,9 @@ RUN set -x \
     && apt-get install -y --no-install-recommends \
         locales \
         curl \
+        wget \
+        jq \
+        git \
         python3.7-dev \
         python3.7-distutils \
     && ln -s /usr/bin/python3.7 /usr/local/bin/python \
