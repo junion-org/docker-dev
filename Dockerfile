@@ -8,6 +8,8 @@ RUN set -x \
         tzdata \
     && apt-get install -y --no-install-recommends \
         locales \
+        ca-certificates \
+        openssh-client \
         curl \
         wget \
         jq \
