@@ -20,6 +20,8 @@ RUN set -x \
     && curl -kL https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
     && python get-pip.py \
     && rm get-pip.py \
+    && pip install -U pip \
+    && pip install pylint \
     && locale-gen ja_JP.UTF-8 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
