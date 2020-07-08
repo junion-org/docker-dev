@@ -14,9 +14,9 @@ RUN set -x \
         wget \
         jq \
         git \
-        python3.7-dev \
-        python3.7-distutils \
-    && ln -s /usr/bin/python3.7 /usr/local/bin/python \
+        python3.8-dev \
+        python3.8-distutils \
+    && ln -s /usr/bin/python3.8 /usr/local/bin/python \
     && curl -kL https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
     && python get-pip.py \
     && rm get-pip.py \
